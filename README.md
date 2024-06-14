@@ -1,4 +1,9 @@
-This is an agent based prey and predator model where each agent has a little brain, represented as a Neural Network. The Neural Network evolves via a genetic algorithm.
+This is an agent based each Bacteria vs. Phages evolutionary model. The Bacteria
+have a little Neural Network that influences their decision making. The Phages
+can inject their RNA into the Bacteria and take-over the mechanisms in the cell,
+including the decision making of the neural network. The phages move from 
+diffusion (random-walks) or through the transport of a Bacteria.
+The Neural Network evolves via a genetic algorithm.
 
 There are many parameters to play with, which, will be optimized soon!
 
@@ -7,9 +12,7 @@ Also, please switch between the array and class (modular) approach by going into
 -------------------------------
 IMPLEMENTED
 -------------------------------
-- Cooperation
 - Real time population display.
-- Array based implementation --> to prepare for GPU implementation.
 - Saving of neural networks.
 
 -------------------------------
